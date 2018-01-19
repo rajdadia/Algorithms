@@ -162,29 +162,16 @@ public class Percolation
  
  public static void main(String args[])
  {
-     int n=5;
+//      int n=5;
      
-     Percolation grid=new Percolation(n);
+//      Percolation grid=new Percolation(n);
      
-     grid.open(0,0);
-     grid.open(0,1);
-     grid.open(1,1);
-     grid.open(4,4);
-     grid.open(2,1);
-     grid.open(3,0);
-     grid.open(3,2);
-     grid.open(3,3);
-     grid.open(2,2);
-     //grid.open(1,0);
-     //grid.open(2,0);
-     grid.open(3,4);
-     grid.open(4,1);
      
-     boolean x=grid.percolates();
-     if(x==true)
-      System.out.println("percolates");
-     else
-      System.out.println(" no percolates");
+//      boolean x=grid.percolates();
+//      if(x==true)
+//       System.out.println("percolates");
+//      else
+//       System.out.println(" no percolates");
  }
 }
   
